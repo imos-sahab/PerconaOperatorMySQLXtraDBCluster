@@ -14,7 +14,7 @@ This step should be done only once; it does not need to be repeated with the nex
 
 
 $ kubectl apply -f deploy/crd.yaml
-The next thing to do is to add the pxc namespace to Kubernetes, not forgetting to set the correspondent context for further steps:
+#The next thing to do is to add the pxc namespace to Kubernetes, not forgetting to set the correspondent context for further steps:
 
 
 $ kubectl create namespace pxc
